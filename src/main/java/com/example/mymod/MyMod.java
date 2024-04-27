@@ -1,5 +1,6 @@
 package com.example.mymod;
 
+import com.example.mymod.Item.ModCreativeModTabs;
 import com.example.mymod.Item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -77,6 +78,7 @@ public class MyMod {
     public MyMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
 
         // Register the commonSetup method for modloading
@@ -116,6 +118,7 @@ public class MyMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.RAW_SAPPHIRE);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
             event.accept(EXAMPLE_BLOCK_ITEM);

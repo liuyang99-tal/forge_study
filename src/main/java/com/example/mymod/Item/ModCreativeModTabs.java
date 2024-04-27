@@ -10,6 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import com.example.mymod.block.ModBlocks;;
 
 public class ModCreativeModTabs {
 
@@ -24,6 +25,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
 
                         pOutput.accept(Items.DIAMOND);
+
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
 
                     })
                     .build());

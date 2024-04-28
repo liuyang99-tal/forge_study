@@ -2,5 +2,6 @@
     "item.mymod.sapphire": "Sapphire",
     "item.mymod.raw_sapphire": "Raw Sapphire",
     "block.mymod.sapphire_block": "Sapphire Block",
+    "block.mymod.raw_sapphire_block": "Raw Sapphire Block",
     "creativetab.sapphire_tab": "Sapphire Tutorial Tab"
 }

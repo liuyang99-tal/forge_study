@@ -2,6 +2,7 @@ package com.example.mymod.block;
 
 import com.example.mymod.MyMod;
 import com.example.mymod.Item.ModItems;
+import com.example.mymod.block.custom.SoundBlock;
 import com.google.common.base.Supplier;
 
 import net.minecraft.util.valueproviders.UniformInt;
@@ -38,6 +39,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> END_STONE_SAPPHIRE_ORE = registerBlock("end_stone_sapphire_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 7),
                     BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE).strength(5f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

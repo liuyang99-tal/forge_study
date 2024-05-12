@@ -3,5 +3,9 @@
     "item.mymod.raw_sapphire": "Raw Sapphire",
     "block.mymod.sapphire_block": "Sapphire Block",
     "block.mymod.raw_sapphire_block": "Raw Sapphire Block",
+    "block.mymod.sapphire_ore": "Sapphire Ore",
+    "block.mymod.deepslate_sapphire_ore": "DeepSlate Sapphire Ore",
+    "block.mymod.end_stone_sapphire_ore": "EndStone Sapphire Ore",
+    "block.mymod.nether_sapphire_ore": "Nether Sapphire Ore",
     "creativetab.sapphire_tab": "Sapphire Tutorial Tab"
 }

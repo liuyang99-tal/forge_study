@@ -1,0 +1,8 @@
+// 1.20.4	2024-05-15T07:31:58.2157553	Loot Tables
+81bdfa691342a4172bbe5f144c15d30cb1141431 data/mymod/loot_tables/blocks/deepslate_sapphire_ore.json
+aa9decf266accc5732240f1626c5158fd192ec40 data/mymod/loot_tables/blocks/end_stone_sapphire_ore.json
+7b2860884f9197bbbf2603588356f1aceda2bf2e data/mymod/loot_tables/blocks/nether_sapphire_ore.json
+3c68c4f3b81edb21f3a2a1fa92b66f674eec3b12 data/mymod/loot_tables/blocks/raw_sapphire_block.json
+9b8a40dd95c36a4b6c9cb4321830a2e3630a4df4 data/mymod/loot_tables/blocks/sapphire_block.json
+d4c16bf5c5eb85690ebd1f4e0244251e459fde47 data/mymod/loot_tables/blocks/sapphire_ore.json
+e6bafc4aa14c5f662b83131f453e9193988c2eee data/mymod/loot_tables/blocks/sound_block.json

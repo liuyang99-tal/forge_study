@@ -1,0 +1,7 @@
+// 1.20.4	2024-05-15T07:31:58.2177551	Tags for minecraft:block mod id mymod
+9a91292d0c31c33348b49693c13c41ba3054ae7e data/forge/tags/blocks/needs_netherite_tool.json
+8b350baf8ef1830d6a6dec004f4d6c76baa10a36 data/minecraft/tags/blocks/mineable/pickaxe.json
+48fc76fe73cdd28ac998676627244655625622b8 data/minecraft/tags/blocks/needs_diamond_tool.json
+690401722b6a7e2043b12877747bba21d14e35dd data/minecraft/tags/blocks/needs_iron_tool.json
+7adcfd009f14dfe64f2b7ce8c96cc41f79d4079a data/minecraft/tags/blocks/needs_stone_tool.json
+1c9281e9fca0510dfd8504df1cda3d012b5ee568 data/mymod/tags/blocks/metal_detector_valuables.json

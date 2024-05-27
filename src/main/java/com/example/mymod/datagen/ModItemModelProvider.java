@@ -1,5 +1,7 @@
 package com.example.mymod.datagen;
 
+import org.stringtemplate.v4.compiler.CodeGenerator.primary_return;
+
 import com.example.mymod.MyMod;
 import com.example.mymod.Item.ModItems;
 import com.example.mymod.block.ModBlocks;
@@ -41,6 +43,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_FENCE_GATE);
 
         trapdoorItem(ModBlocks.SAPPHIRE_TRAPDOOR);
+        handheldItem(ModItems.SAPPHIRE_SWORD);
+        handheldItem(ModItems.SAPPHIRE_PICKAXE);
+        handheldItem(ModItems.SAPPHIRE_AXE);
+        handheldItem(ModItems.SAPPHIRE_SHOVEL);
+        handheldItem(ModItems.SAPPHIRE_HOE);
 
     }
 
@@ -82,6 +89,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
+                        new ResourceLocation(MyMod.MODID, "item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
                         new ResourceLocation(MyMod.MODID, "item/" + item.getId().getPath()));
     }
 
